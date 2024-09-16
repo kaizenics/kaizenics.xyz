@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Aspiring Full Stack Developer with a passion for Graphic Designing and UI/UX Designing. I am an auto-didactic learner and always eager to learn new things.",
   summary:
-    "Currently 4th Year Student at [Holy Cross of Davao College](/#education), Creatives Committee Head at [HCDC Information Technology Society](/#hackathons), and also a Design Committee at [Google Developer Group Davao](/#hackathons). I attend some webinars, conferences, and tech meetups here in Davao like PWA Pilipinas, PyConf Mini Davao, and Google I/O Extended Davao for me to learn more about the latest trends in technology.",
+    "Currently 4th Year Student at [Holy Cross of Davao College](/#education), Creatives Committee Head at [HCDC Information Technology Society](https://www.facebook.com/hcdcits), and also a Design Committee at [Google Developer Group Davao](https://www.facebook.com/gdgdavao). I attend some webinars, conferences, and tech meetups here in Davao like PWA Pilipinas, PyConf Mini Davao, and Google I/O Extended Davao for me to learn more about the latest trends in technology.",
   avatarUrl: "/akome.jpg",
   skills: [
     "React",
@@ -83,7 +83,7 @@ export const DATA = {
     {
       company: "Unlimit Agency",
       badges: [],
-      href: "https://shopify.com",
+      href: "",
       location: "Remote",
       title: "Video Editor",
       logoUrl: "/unlimit.png",
@@ -95,7 +95,7 @@ export const DATA = {
     {
       company: "HCDC Information Technology Society",
       badges: [],
-      href: "https://shopify.com",
+      href: "",
       location: "Remote",
       title: "Creatives Committee Head",
       logoUrl: "/its-logo.png",
@@ -107,7 +107,7 @@ export const DATA = {
     {
       company: "HCDC College of Engineering and Technology",
       badges: [],
-      href: "https://shopify.com",
+      href: "",
       location: "Remote",
       title: "Creatives Manager",
       logoUrl: "/cet.webp",
@@ -118,7 +118,7 @@ export const DATA = {
     },
     {
       company: "Cosier Labs",
-      href: "https://nvidia.com/",
+      href: "",
       badges: [],
       location: "Santa Clara, CA",
       title: "Project Lead, Full Stack Developer",
@@ -130,7 +130,7 @@ export const DATA = {
     },
     {
       company: "Cross Blazers Cup",
-      href: "https://splunk.com",
+      href: "",
       badges: [],
       location: "San Jose, CA",
       title: "Project Lead, Full Stack Developer",
@@ -142,7 +142,7 @@ export const DATA = {
     },
     {
       company: "Google Developer Group Davao",
-      href: "https://atomic.finance",
+      href: "",
       badges: [],
       location: "Remote",
       title: "Design Committee",
