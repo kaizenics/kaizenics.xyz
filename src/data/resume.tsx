@@ -291,9 +291,9 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
+          type: "GitHub",
           href: "https://github.com/kaizenics/cater-services",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/cater.png",
