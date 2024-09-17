@@ -90,7 +90,7 @@ export const DATA = {
       start: "September 2024",
       end: "Present",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Currently working as a Video Editor at Unlimit Agency. I edit videos for their clients and create promotional videos for their social media platforms.",
     },
     {
       company: "Cosier Labs",
@@ -102,7 +102,7 @@ export const DATA = {
       start: "August 2024",
       end: "Present",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        "Currently working as a Full Stack Developer at Cosier Labs. I develop web applications and mobile applications for open source and capstone projects.",
     },
     {
       company: "Cross Blazers Cup",
@@ -114,7 +114,7 @@ export const DATA = {
       start: "September 2024",
       end: "Present",
       description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
+        "Currently a Project Lead and Full Stack Developer of the Project called Cross Blazers Cup. I maintain the website and develop new features for the project.",
     },
     {
       company: "HCDC Information Technology Society",
@@ -126,7 +126,7 @@ export const DATA = {
       start: "January 2023",
       end: "Present",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Currently the Creatives Committee Head of the HCDC Information Technology Society. I manage the creatives team and create designs for the organization.",
     },
     {
       company: "HCDC College of Engineering and Technology",
@@ -138,19 +138,19 @@ export const DATA = {
       start: "September 2023",
       end: "Present",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Currently the Creatives Manager of the HCDC College of Engineering and Technology. I manage the creatives team and create designs for the college.",
     },
     {
       company: "Google Developer Group Davao",
       href: "",
       badges: [],
       location: "Remote",
-      title: "Design Committee",
+      title: "Design Committee Volunteer",
       logoUrl: "/gdg.png",
       start: "March 2024",
       end: "July 2024",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Design Committee Volunteer of the Google Developer Group Davao. I create designs for the Google I/O Extended Davao 2024 and manage the design team.",
     },
   ],
   education: [
