@@ -8,9 +8,9 @@ export const DATA = {
   location: "Davao City, Philippines",
   locationLink: "https://www.google.com/maps/place/Davao+City,+Davao+del+Sur",
   description:
-    "Aspiring Full Stack Developer with a passion for Graphic Designing and UI/UX Designing. I am an auto-didactic learner and always eager to learn new things.",
+    "Web Developer with a passion for Video Editing and Graphic Designing",
   summary:
-    "Currently 4th Year Student at [Holy Cross of Davao College](/#education), Creatives Committee Head at [HCDC Information Technology Society](https://www.facebook.com/hcdcits), and also a Design Committee at [Google Developer Group Davao](https://www.facebook.com/gdgdavao). I attend some webinars, conferences, and tech meetups here in Davao like PWA Pilipinas, PyConf Mini Davao, and Google I/O Extended Davao for me to learn more about the latest trends in technology.",
+    "Currently 4th Year Student at [Holy Cross of Davao College](/#education), Creatives Committee Head at [HCDC Information Technology Society](https://www.facebook.com/hcdcits), and Design Committee at [Google Developer Group Davao](https://www.facebook.com/gdgdavao). I attend some seminars, conferences, and tech meetups here in Davao such as PWA Pilipinas, PyConf Mini Davao, and Google I/O Extended Davao to learn more about the latest trends in technology.",
   avatarUrl: "/akome.jpg",
   skills: [
     "React",
@@ -93,30 +93,6 @@ export const DATA = {
         "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
     },
     {
-      company: "HCDC Information Technology Society",
-      badges: [],
-      href: "",
-      location: "Remote",
-      title: "Creatives Committee Head",
-      logoUrl: "/its-logo.png",
-      start: "January 2023",
-      end: "Present",
-      description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
-    },
-    {
-      company: "HCDC College of Engineering and Technology",
-      badges: [],
-      href: "",
-      location: "Remote",
-      title: "Creatives Manager",
-      logoUrl: "/cet.webp",
-      start: "September 2023",
-      end: "Present",
-      description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
-    },
-    {
       company: "Cosier Labs",
       href: "",
       badges: [],
@@ -139,6 +115,30 @@ export const DATA = {
       end: "Present",
       description:
         "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
+    },
+    {
+      company: "HCDC Information Technology Society",
+      badges: [],
+      href: "",
+      location: "Remote",
+      title: "Creatives Committee Head",
+      logoUrl: "/its-logo.png",
+      start: "January 2023",
+      end: "Present",
+      description:
+        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+    },
+    {
+      company: "HCDC College of Engineering and Technology",
+      badges: [],
+      href: "",
+      location: "Remote",
+      title: "Creatives Manager",
+      logoUrl: "/cet.webp",
+      start: "September 2023",
+      end: "Present",
+      description:
+        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
     },
     {
       company: "Google Developer Group Davao",
@@ -212,9 +212,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/geomapper.png",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "",
     },
     {
       title: "Cross Blazers Cup",
@@ -272,7 +272,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/confessly.png",
+      image: "/confessly.jpg",
       video: "",
     },
     {
@@ -282,23 +282,16 @@ export const DATA = {
       active: true,
       description:
         "Ate Gangs Catering Services is a catering service that offers a variety of food choices for your special events.",
-      technologies: [
-        "React",
-        "JavaScript",
-        "PHP",
-        "MySQL",
-        "SASS",
-      ],
+      technologies: ["React", "JavaScript", "PHP", "MySQL", "SASS"],
       links: [
         {
-          type: "GitHub",
+          type: "Source",
           href: "https://github.com/kaizenics/cater-services",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/cater.png",
-      video:
-        "",
+      video: "",
     },
   ],
   hackathons: [
@@ -308,8 +301,7 @@ export const DATA = {
       location: "",
       description:
         "Developed a static website as a fan service for the Natori (my favorite japanese artist)",
-      image:
-        "",
+      image: "",
       mlh: "",
       links: [
         {
@@ -330,8 +322,7 @@ export const DATA = {
       location: "",
       description:
         "Developed a web application for OpenAI GPT-4o API Testing and Integration",
-      image:
-        "",
+      image: "",
       mlh: "",
       links: [
         {
@@ -345,10 +336,8 @@ export const DATA = {
       title: "Medisina",
       dates: "April 2024",
       location: "",
-      description:
-        "Developed a web application for Web Systems Project",
-      image:
-        "",
+      description: "Developed a web application for Web Systems Project",
+      image: "",
       mlh: "",
       links: [
         {
@@ -362,10 +351,8 @@ export const DATA = {
       title: "Heraeus",
       dates: "January 2024",
       location: "",
-      description:
-        "Developed a web application for IT Elective Project",
-      image:
-        "",
+      description: "Developed a web application for IT Elective Project",
+      image: "",
       mlh: "",
       links: [
         {
@@ -381,8 +368,7 @@ export const DATA = {
       location: "",
       description:
         "Developed a website that generate a quotes from your favorite anime",
-      image:
-        "",
+      image: "",
       mlh: "",
       links: [
         {
@@ -403,8 +389,7 @@ export const DATA = {
       location: "",
       description:
         "Developed a web application that modifies the text into an emoji",
-      image:
-        "",
+      image: "",
       mlh: "",
       links: [
         {
@@ -425,8 +410,7 @@ export const DATA = {
       location: "",
       description:
         "Developed a web application that manages contacts for a company or organization",
-      image:
-        "",
+      image: "",
       mlh: "",
       links: [
         {
