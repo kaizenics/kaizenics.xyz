@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Web Developer and Graphic Designer",
   summary:
-    "Currently 4th Year Student at [Holy Cross of Davao College](/#education), Creatives Committee Head at [HCDC Information Technology Society](https://www.facebook.com/hcdcits), and Design Committee at [Google Developer Group Davao](https://www.facebook.com/gdgdavao). I attend some seminars, conferences, and tech meetups here in Davao such as PWA Pilipinas, PyConf Mini Davao, and Google I/O Extended Davao to learn more about the latest trends in technology.",
+    "Currently 4th Year Student at [Holy Cross of Davao College](/#education), Creatives Committee Head at [HCDC Information Technology Society](https://www.facebook.com/hcdcits), and Former Design Committee at [Google Developer Group Davao](https://www.facebook.com/gdgdavao). I do Freelancing especially in Web Development and Graphic Design.",
   avatarUrl: "/akome.jpg",
   skills: [
     "React",
