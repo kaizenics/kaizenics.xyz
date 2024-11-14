@@ -4,11 +4,11 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Niko Soriano",
   initials: "NJ",
-  url: "https://nikodv.me",
+  url: "https://kaizenics.xyz/",
   location: "Davao City, Philippines",
   locationLink: "https://www.google.com/maps/place/Davao+City,+Davao+del+Sur",
   description:
-    "Web Developer with a passion for Video Editing and Graphic Designing",
+    "Web Developer and Graphic Designer",
   summary:
     "Currently 4th Year Student at [Holy Cross of Davao College](/#education), Creatives Committee Head at [HCDC Information Technology Society](https://www.facebook.com/hcdcits), and Design Committee at [Google Developer Group Davao](https://www.facebook.com/gdgdavao). I attend some seminars, conferences, and tech meetups here in Davao such as PWA Pilipinas, PyConf Mini Davao, and Google I/O Extended Davao to learn more about the latest trends in technology.",
   avatarUrl: "/akome.jpg",
@@ -93,24 +93,24 @@ export const DATA = {
         "Currently working as a Video Editor at Unlimit Agency. I edit videos for their clients and create promotional videos for their social media platforms.",
     },
     {
-      company: "Cosier Labs",
+      company: "SeaSense",
       href: "",
       badges: [],
       location: "Santa Clara, CA",
       title: "Project Lead, Full Stack Developer",
-      logoUrl: "/cosier.png",
+      logoUrl: "/seasense.png",
       start: "August 2024",
       end: "Present",
       description:
-        "Currently working as a Full Stack Developer at Cosier Labs. I develop web applications and mobile applications for open source and capstone projects.",
+        "Currently working as a Full Stack Developer at SeaSense. I develop web applications and mobile applications for open source and capstone projects.",
     },
     {
-      company: "Cross Blazers Cup",
+      company: "Cross Blazers Cup 2024",
       href: "",
       badges: [],
       location: "San Jose, CA",
-      title: "Project Lead, Full Stack Developer",
-      logoUrl: "/cnc.jpg",
+      title: "Lead Developer",
+      logoUrl: "/cnc-2024.png",
       start: "September 2024",
       end: "Present",
       description:
@@ -121,7 +121,7 @@ export const DATA = {
       badges: [],
       href: "",
       location: "Remote",
-      title: "Creatives Committee Head",
+      title: "Creatives Head",
       logoUrl: "/its-logo.png",
       start: "January 2023",
       end: "Present",
@@ -189,7 +189,7 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "GeoMapper",
+      title: "SeaSense",
       href: "https://github.com/cosierlabs/geomapper",
       dates: "August 2024 - Present",
       active: true,
@@ -217,7 +217,7 @@ export const DATA = {
         "",
     },
     {
-      title: "Cross Blazers Cup",
+      title: "Cross Blazers Cup 2024",
       href: "https://intramurals-hcdc.vercel.app/",
       dates: "September 2024 - Present",
       active: true,
