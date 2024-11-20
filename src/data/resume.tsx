@@ -81,22 +81,22 @@ export const DATA = {
 
   work: [
     {
-      company: "Unlimit Agency",
-      badges: [],
+      company: "HunnidBaddies",
       href: "",
+      badges: [],
       location: "Remote",
-      title: "Video Editor",
-      logoUrl: "/unlimit.png",
-      start: "September 2024",
+      title: "Front-end Developer",
+      logoUrl: "/hunnid.png",
+      start: "November 2024",
       end: "Present",
       description:
-        "Currently working as a Video Editor at Unlimit Agency. I edit videos for their clients and create promotional videos for their social media platforms.",
+        "Currently working as Front-end Developer at HunnidBaddies. I develop and design the web pages for the company.",
     },
     {
       company: "SeaSense",
       href: "",
       badges: [],
-      location: "Santa Clara, CA",
+      location: "Davao City, Philippines",
       title: "Project Lead, Full Stack Developer",
       logoUrl: "/seasense.png",
       start: "August 2024",
@@ -108,7 +108,7 @@ export const DATA = {
       company: "Cross Blazers Cup 2024",
       href: "",
       badges: [],
-      location: "San Jose, CA",
+      location: "Davao City, Philippines",
       title: "Lead Developer",
       logoUrl: "/cnc-2024.png",
       start: "September 2024",
@@ -139,6 +139,18 @@ export const DATA = {
       end: "Present",
       description:
         "Currently the Creatives Manager of the HCDC College of Engineering and Technology. I manage the creatives team and create designs for the college.",
+    },
+    {
+      company: "Unlimit Agency",
+      badges: [],
+      href: "",
+      location: "Remote",
+      title: "Video Editor",
+      logoUrl: "/unlimit.png",
+      start: "September 2024",
+      end: "November 2024",
+      description:
+        "Video Editor at Unlimit Agency. I edit videos for their clients and create promotional videos for their social media platforms.",
     },
     {
       company: "Google Developer Group Davao",
@@ -233,7 +245,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://intramurals-hcdc.vercel.app/",
+          href: "https://hcdc.crossblazerscup.com/",
           icon: <Icons.globe className="size-3" />,
         },
         {
