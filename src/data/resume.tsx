@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Web Developer and Graphic Designer",
   summary:
-    "Currently 4th Year Student at [Holy Cross of Davao College](/#education), Creatives Committee Head at [HCDC Information Technology Society](https://www.facebook.com/hcdcits), and Former Design Committee at [Google Developer Group Davao](https://www.facebook.com/gdgdavao). I do Freelancing especially in Web Development and Graphic Design.",
+    "A web developer based in Philippines, building full-stack web applications with React, TypeScript, and PostgreSQL.",
   avatarUrl: "/akome.jpg",
   skills: [
     "React",
