@@ -81,41 +81,30 @@ export const DATA = {
 
   work: [
     {
-      company: "HunnidBaddies",
+      company: "Hunnid Agency",
       href: "",
       badges: [],
       location: "Remote",
-      title: "Front-end Developer",
+      title: "Front-end Engineer",
       logoUrl: "/hunnid.png",
       start: "November 2024",
       end: "Present",
       description:
-        "Currently working as Front-end Developer at HunnidBaddies. I develop and design the web pages for the company.",
+        "Currently working as Front-end Engineer at HunnidBaddies. In-charge front-end development and UI designs for the company.",
     },
     {
       company: "SeaSense",
       href: "",
       badges: [],
       location: "Davao City, Philippines",
-      title: "Project Lead, Full Stack Developer",
+      title: "Project Lead, Mobile Developer",
       logoUrl: "/seasense.png",
       start: "August 2024",
       end: "Present",
       description:
-        "Currently working as a Full Stack Developer at SeaSense. I develop web applications and mobile applications for open source and capstone projects.",
+        "Currently working as a React Native Developer at SeaSense. In-charge in the mobile application and back-end side of the project.",
     },
-    {
-      company: "Cross Blazers Cup 2024",
-      href: "",
-      badges: [],
-      location: "Davao City, Philippines",
-      title: "Lead Developer",
-      logoUrl: "/cnc-2024.png",
-      start: "September 2024",
-      end: "Present",
-      description:
-        "Currently a Project Lead and Full Stack Developer of the Project called Cross Blazers Cup. I maintain the website and develop new features for the project.",
-    },
+  
     {
       company: "HCDC Information Technology Society",
       badges: [],
@@ -139,6 +128,18 @@ export const DATA = {
       end: "Present",
       description:
         "Currently the Creatives Manager of the HCDC College of Engineering and Technology. I manage the creatives team and create designs for the college.",
+    },
+    {
+      company: "Cross Blazers Cup",
+      href: "",
+      badges: [],
+      location: "Davao City, Philippines",
+      title: "Lead Developer",
+      logoUrl: "/cnc-2024.png",
+      start: "September 2024",
+      end: "November 2024",
+      description:
+        "Currently a Project Lead and Full Stack Developer of the Project called Cross Blazers Cup. I maintain the website and develop new features for the project.",
     },
     {
       company: "Unlimit Agency",
@@ -214,8 +215,9 @@ export const DATA = {
         "Expo",
         "Arduino",
         "Google API",
-        "Jupyter Notebook",
-        "ArcGIS",
+        "TensorFlow.js",
+        "Python",
+        "QGIS",
       ],
       links: [
         {
@@ -224,14 +226,14 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/geomapper.png",
+      image: "/seasense-bg.png",
       video:
         "",
     },
     {
-      title: "Cross Blazers Cup 2024",
+      title: "Cross Blazers Cup",
       href: "https://intramurals-hcdc.vercel.app/",
-      dates: "September 2024 - Present",
+      dates: "September 2024 - November 2024",
       active: true,
       description:
         "Join us for an unforgettable experience filled with excitement, sportsmanship, and community pride!",
@@ -308,7 +310,7 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Natori Unofficial Website",
+      title: "Natori",
       dates: "February 2024",
       location: "",
       description:
@@ -325,22 +327,6 @@ export const DATA = {
           title: "Github",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/kaizenics/natori",
-        },
-      ],
-    },
-    {
-      title: "Synd AI",
-      dates: "February 2024",
-      location: "",
-      description:
-        "Developed a web application for OpenAI GPT-4o API Testing and Integration",
-      image: "",
-      mlh: "",
-      links: [
-        {
-          title: "Github",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/kaizenics/synd-ai",
         },
       ],
     },
