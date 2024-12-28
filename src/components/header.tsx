@@ -52,12 +52,7 @@ export function Header() {
         className="text-gray-300 font-sans mb-6 text-sm sm:text-md"
       >
         Hello, I&apos;m a web developer based in Philippines. I specialize in building 
-        responsive and user-friendly web applications with modern technologies. Currently
-        creating impactful digital experiences on{" "}
-        <Link href="https://github.com/kaizenics" className="text-gray-300 hover:text-white underline underline-offset-4">
-          GitHub
-        </Link>
-        .
+        responsive and user-friendly web applications with modern technologies.
       </motion.p>
 
       <motion.div 
@@ -67,7 +62,7 @@ export function Header() {
         className="flex text-xs gap-1 mb-6"
       >
         <Button asChild variant="outline" className="font-sans gap-1 group">
-          <Link href="/resume.pdf">
+          <Link href="/resume.pdf" target="_blank">
             View Resume
             <ArrowUpRight className="w-4 h-4 text-gray-400 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
