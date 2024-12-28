@@ -17,7 +17,7 @@ export function Skills() {
 
   return (
     <section className="my-8">
-      <h2 className="font-heading text-lg font-semibold mb-4">Skills</h2>
+      <h2 className="font-heading text-md sm:text-lg font-semibold mb-4">Skills</h2>
       <div className="flex flex-wrap gap-2">
         {skills.map((skill) => (
           <Badge

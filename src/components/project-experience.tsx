@@ -23,7 +23,7 @@ export function ProjectExperience() {
 
   return (
     <section className="my-12">
-      <p className="font-heading text-lg font-semibold mb-6">Project Experience</p>
+      <p className="font-heading text-md sm:text-lg font-semibold mb-6">Project Experience</p>
       <div className="space-y-4">
         {projects.map((project, index) => (
           <Card key={index}>
@@ -31,13 +31,13 @@ export function ProjectExperience() {
               <div className="flex items-center justify-between mb-2">
                 <div className="flex items-center gap-2">
                   <Code2 className="w-5 h-5 text-gray-400" />
-                  <h3 className="font-heading font-semibold">{project.name}</h3>
+                  <p className="text-sm sm:text-lg font-heading font-semibold">{project.name}</p>
                 </div>
                 <Link href={project.link} target="_blank" className="text-gray-400 hover:text-white">
                   <ExternalLink className="w-5 h-5" />
                 </Link>
               </div>
-              <p className="font-sans text-gray-300 text-sm leading-relaxed">{project.description}</p>
+              <p className="font-sans text-gray-300 text-xs sm:text-sm leading-relaxed">{project.description}</p>
             </CardContent>
           </Card>
         ))}
