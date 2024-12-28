@@ -62,7 +62,7 @@ export function Header() {
         className="flex text-xs gap-1 mb-6"
       >
         <Button asChild variant="outline" className="font-sans gap-1 group">
-          <Link href="/resume.pdf" target="_blank">
+          <Link href="/cv.pdf" target="_blank">
             View Resume
             <ArrowUpRight className="w-4 h-4 text-gray-400 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
