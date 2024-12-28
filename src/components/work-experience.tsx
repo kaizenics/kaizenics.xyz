@@ -9,7 +9,7 @@ export function WorkExperience() {
       period: "2024 - Present",
     },
     {
-      position: "Owner",
+      position: "Graphic Designer",
       company: "NXZ Visuals",
       period: "2023 - Present",
     }

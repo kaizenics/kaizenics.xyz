@@ -6,7 +6,7 @@ export function Header() {
   return (
     <header className="mb-8 mt-8">
       <div className="flex items-center justify-between mb-6">
-        <h1 className="font-heading text-xl sm:text-2xl font-semibold">Nicose John Soriano</h1>
+        <h1 className="font-heading text-lg sm:text-2xl font-semibold">Nicose John Soriano</h1>
         <div className="flex items-center gap-3">
           <Link 
             href="https://www.linkedin.com/in/kaizenics/" 
@@ -45,13 +45,13 @@ export function Header() {
       </p>
 
       <div className="flex gap-1 mb-6">
-        <Button asChild variant="ghost" className="font-sans gap-2 group">
+        <Button asChild variant="outline" className="font-sans gap-2 group">
           <Link href="/resume">
             View Resume
             <ArrowUpRight className="w-4 h-4 text-gray-400 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
         </Button>
-        <Button asChild variant="ghost" className="gap-2 group">
+        <Button asChild variant="outline" className="gap-2 group">
           <Link href="https://archive.kaizenics.xyz" target="_blank">
             Archived
             <ArrowUpRight className="w-4 h-4 text-gray-400 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />

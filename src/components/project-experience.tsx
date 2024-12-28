@@ -12,7 +12,7 @@ export function ProjectExperience() {
     {
       name: "Cross Blazers Cup",
       description: "Lead the development of the official website for the Cross Blazers Cup 2024. Built with Next.js, Tailwind CSS, and Supabase.",
-      link: "https://hcdc.crossblazers.cup/"
+      link: "https://hcdc.crossblazerscup.com/"
     },
     {
       name: "Duospense",
