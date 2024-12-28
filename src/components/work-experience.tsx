@@ -13,15 +13,16 @@ export function WorkExperience() {
       period: "Present",
     },
     {
+      position: "Freelance Developer/Designer",
+      company: "Raketph",
+      period: "",
+    },
+    {
       position: "Graphic Designer",
       company: "NXZ Visuals",
       period: "",
     },
-    {
-      position: "Reels Editor",
-      company: "Unlimit",
-      period: "",
-    },
+   
   ];
 
   return (
