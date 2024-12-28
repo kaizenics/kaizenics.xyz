@@ -25,7 +25,7 @@ export function ProjectExperience() {
     {
         name: "Confessly",
         description: "Built a confession wall for valentines with Next.js, Tailwind CSS, and Supabase.",
-        link: "https://github.com/kaizenics/duospense"
+        link: "https://confessly.vercel.app/"
       },
   ]
 
