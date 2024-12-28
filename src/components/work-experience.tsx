@@ -17,6 +17,11 @@ export function WorkExperience() {
       company: "NXZ Visuals",
       period: "",
     },
+    {
+      position: "Reels Editor",
+      company: "Unlimit",
+      period: "",
+    },
   ];
 
   return (
