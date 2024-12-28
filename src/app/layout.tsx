@@ -17,7 +17,7 @@ const spaceGrotesk = Space_Grotesk({
 
 
 export const metadata: Metadata = {
-  title: "Nicose John Soriano",
+  title: "Niko: Hello!",
   description: "Portfolio of Nicose John Soriano",
 };
 
