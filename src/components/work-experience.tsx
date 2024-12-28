@@ -4,12 +4,12 @@ import { Building2, Calendar } from 'lucide-react'
 export function WorkExperience() {
   const experiences = [
     {
-      position: "Front-end Engineer",
+      position: "Front-end Developer",
       company: "Hunnid Agency",
       period: "2024 - Present",
     },
     {
-      position: "Owner, Graphic Designer",
+      position: "Owner",
       company: "NXZ Visuals",
       period: "2023 - Present",
     }
