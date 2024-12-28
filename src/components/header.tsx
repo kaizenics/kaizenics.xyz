@@ -6,7 +6,7 @@ export function Header() {
   return (
     <header className="mb-8 mt-8">
       <div className="flex items-center justify-between mb-6">
-        <h1 className="font-heading text-2xl font-semibold">Niko Soriano</h1>
+        <h1 className="font-heading text-2xl font-semibold">Nicose John Soriano</h1>
         <div className="flex items-center gap-3">
           <Link 
             href="https://www.linkedin.com/in/kaizenics/" 
