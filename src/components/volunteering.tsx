@@ -1,3 +1,5 @@
+"use client";
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Heart, Calendar } from "lucide-react";
 
@@ -14,8 +16,8 @@ export function Volunteering() {
       period: "2024 - 2025",
     },
     {
-      position: "Lead Full-stack Developer",
-      organization: "Cross Blazers Cup 2024",
+      position: "Full-stack Developer",
+      organization: "HCDC SSG Executive Department",
       period: "2024",
     },
     {
@@ -39,7 +41,7 @@ export function Volunteering() {
             <CardContent className="p-6">
               <div className="flex items-center gap-2 mb-2">
                 <Heart className="w-5 h-5 text-gray-400" />
-                <p className="font-heading text-sm sm:text-lg font-semibold">{exp.organization}</p>
+                <p className="font-heading text-sm sm:text-md md:text-lg font-semibold">{exp.organization}</p>
               </div>
               <div className="font-sans flex items-center gap-2 text-xs sm:text-sm text-gray-400 mb-3">
                 <span>{exp.position}</span>

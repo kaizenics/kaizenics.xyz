@@ -1,64 +1,85 @@
+"use client";
+
+import { motion } from "framer-motion"
 import Link from "next/link"
 import { LinkedinIcon, Github, Mail, ArrowUpRight } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 
 export function Header() {
   return (
-    <header className="mb-8 mt-8">
+    <motion.header 
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      className="mb-8 mt-8"
+    >
       <div className="flex items-center justify-between mb-6">
-        <h1 className="font-heading text-lg sm:text-2xl font-semibold">Nicose John Soriano</h1>
+        <motion.h1 
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          className="font-heading text-lg sm:text-xl md:text-2xl font-semibold"
+        >
+          Nicose John Soriano
+        </motion.h1>
         <div className="flex items-center gap-3">
-          <Link 
-            href="https://www.linkedin.com/in/kaizenics/" 
-            target="_blank"
-            className="text-gray-400 hover:text-white transition-colors"
-          >
-            <LinkedinIcon className="w-5 h-5" />
-            <span className="sr-only">LinkedIn Profile</span>
-          </Link>
-          <Link 
-            href="https://github.com/kaizenics" 
-            target="_blank"
-            className="text-gray-400 hover:text-white transition-colors"
-          >
-            <Github className="w-5 h-5" />
-            <span className="sr-only">GitHub Profile</span>
-          </Link>
-          <Link 
-            href="mailto:nicosejohnsoriano@gmail.com"
-            className="text-gray-400 hover:text-white transition-colors"
-          >
-            <Mail className="w-5 h-5" />
-            <span className="sr-only">Email</span>
-          </Link>
+          {[
+            { href: "https://www.linkedin.com/in/kaizenics/", icon: <LinkedinIcon className="w-5 h-5" />, label: "LinkedIn Profile" },
+            { href: "https://github.com/kaizenics", icon: <Github className="w-5 h-5" />, label: "GitHub Profile" },
+            { href: "mailto:nicosejohnsoriano@gmail.com", icon: <Mail className="w-5 h-5" />, label: "Email" }
+          ].map((social, index) => (
+            <motion.div
+              key={social.href}
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: index * 0.1 }}
+            >
+              <Link 
+                href={social.href} 
+                target={social.href.startsWith('http') ? "_blank" : undefined}
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                {social.icon}
+                <span className="sr-only">{social.label}</span>
+              </Link>
+            </motion.div>
+          ))}
         </div>
       </div>
       
-      <p className="font-sans mb-6 text-sm sm:text-md leading-relaxed">
+      <motion.p 
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.3 }}
+        className="text-gray-300 font-sans mb-6 text-sm sm:text-md"
+      >
         Hello, I&apos;m a web developer based in Philippines. I specialize in building 
         responsive and user-friendly web applications with modern technologies. Currently
         creating impactful digital experiences on{" "}
-        <Link href="https://github.com/kaizenics" className="text-white hover:text-gray-300 underline underline-offset-4">
+        <Link href="https://github.com/kaizenics" className="text-gray-300 hover:text-white underline underline-offset-4">
           GitHub
         </Link>
         .
-      </p>
+      </motion.p>
 
-      <div className="flex gap-1 mb-6">
-        <Button asChild variant="outline" className="font-sans gap-2 group">
+      <motion.div 
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.4 }}
+        className="flex text-xs gap-1 mb-6"
+      >
+        <Button asChild variant="outline" className="font-sans gap-1 group">
           <Link href="/resume">
             View Resume
             <ArrowUpRight className="w-4 h-4 text-gray-400 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
         </Button>
-        <Button asChild variant="outline" className="gap-2 group">
+        <Button asChild variant="outline" className="font-sans gap-2 group">
           <Link href="https://archive.kaizenics.xyz" target="_blank">
             Archived
             <ArrowUpRight className="w-4 h-4 text-gray-400 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
         </Button>
-      </div>
-    </header>
+      </motion.div>
+    </motion.header>
   )
 }
 
