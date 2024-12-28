@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 export function WorkExperience() {
   const experiences = [
     {
-      position: "Front-end Developer",
+      position: "Front-end Engineer",
       company: "Hunnid Agency",
       period: "Present",
     },
