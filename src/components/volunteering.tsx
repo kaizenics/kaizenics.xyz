@@ -27,7 +27,7 @@ export function Volunteering() {
     },
     {
       position: "Open Source Contributor",
-      organization: "Awesome Shadcn UI",
+      organization: "awesome-shadcn/ui",
       period: "2024",
     },
   ];
