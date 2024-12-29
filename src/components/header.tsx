@@ -63,13 +63,13 @@ export function Header() {
       >
         <Button asChild variant="outline" className="font-sans gap-1 group">
           <Link href="/cv.pdf" target="_blank">
-            View Resume
+            Resume
             <ArrowUpRight className="w-4 h-4 text-gray-400 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
         </Button>
         <Button asChild variant="outline" className="font-sans gap-2 group">
-          <Link href="https://archive.kaizenics.xyz" target="_blank">
-            Archived
+          <Link href="https://www.behance.net/kaizenics" target="_blank">
+            Visuals
             <ArrowUpRight className="w-4 h-4 text-gray-400 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
         </Button>
