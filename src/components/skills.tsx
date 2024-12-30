@@ -1,25 +1,11 @@
 "use client";
 
-import { Badge } from "@/components/ui/badge"
+import { profileData } from "@/data/profile";
+import { Badge } from "@/components/ui/badge";
 import { motion } from "framer-motion";
 
 export function Skills() {
-  const skills = [
-    "Next.js",
-    "React",
-    "Vue",
-    "JS/TS",
-    "Node.js",
-    "PHP/Laravel",
-    "Python",
-    "Tailwind CSS",
-    "PostgreSQL",
-    "Firebase",
-    "Supabase",
-    "Drizzle",
-    "Directus",
-    "Git",
-  ]
+  const skills = profileData.skills;
 
   return (
     <motion.section 

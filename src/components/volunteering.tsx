@@ -2,35 +2,10 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Heart, Calendar } from "lucide-react";
+import { profileData } from "@/data/profile";
 
 export function Volunteering() {
-  const volunteerExperiences = [
-    {
-      position: "Creatives Head",
-      organization: "HCDC Information Technology Society",
-      period: "2024 - 2025",
-    },
-    {
-      position: "Creatives Manager",
-      organization: "HCDC College of Engineering and Technology",
-      period: "2024 - 2025",
-    },
-    {
-      position: "Full-stack Developer",
-      organization: "HCDC SSG Executive Department",
-      period: "2024",
-    },
-    {
-      position: "Design Committee",
-      organization: "Google Developer Group Davao",
-      period: "2024",
-    },
-    {
-      position: "Open Source Contributor",
-      organization: "awesome-shadcn/ui",
-      period: "2024",
-    },
-  ];
+  const volunteerExperiences = profileData.volunteerExperiences;
 
   return (
     <section className="my-12">

@@ -1,24 +1,13 @@
 "use client";
 
+import { profileData } from "@/data/profile";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Building2 } from "lucide-react";
 import { motion } from "framer-motion";
 
 export function WorkExperience() {
-  const experiences = [
-    {
-      company: "Hunnid Agency",
-      position: "Front-end Developer",
-      period: "Remote",
-    },
-    {
-      company: "NXZ Visuals",
-      position: "Graphic Designer",
-      period: "Freelance",
-    },
-   
-  ];
+  const experiences = profileData.workExperience;
 
   return (
     <motion.section 

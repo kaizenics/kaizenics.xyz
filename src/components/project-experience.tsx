@@ -1,33 +1,13 @@
 "use client";
 
+import { profileData } from "@/data/profile";
 import { Card, CardContent } from "@/components/ui/card"
 import { Code2, ExternalLink } from 'lucide-react'
 import Link from "next/link"
 import { motion } from "framer-motion";
 
 export function ProjectExperience() {
-  const projects = [
-    {
-      name: "SeaSense",
-      description: "Lead the development of our capstone project. Built with React Native, Expo, Firebase, QGIS, Open-Meteo, and TensorFlow.",
-      link: "https://github.com/devseasense/seasense"
-    },
-    {
-      name: "Cross Blazers Cup",
-      description: "Lead the development of the official website for the HCDC Cross Blazers Cup 2024. Built with Next.js, Tailwind CSS, shadcn/ui, and Supabase.",
-      link: "https://hcdc.crossblazerscup.com/"
-    },
-    {
-      name: "Duospense",
-      description: "Built a expense tracker app with Next.js, Tailwind CSS, shadcn/ui, and Supabase.",
-      link: "https://github.com/kaizenics/duospense"
-    },
-    {
-        name: "Confessly",
-        description: "Built a confession wall for valentines with Next.js, Tailwind CSS, and Supabase.",
-        link: "https://confessly.vercel.app/"
-      },
-  ]
+  const projects = profileData.projects;
 
   return (
     <motion.section 
