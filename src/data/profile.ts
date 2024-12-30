@@ -46,7 +46,12 @@ export const profileData = {
     {
       company: "Hunnid Agency",
       position: "Front-end Developer",
-      period: "Remote",
+      period: "Full-time",
+    },
+    {
+      company: "BDCons Management",
+      position: "Virtual Assistant",
+      period: "Part-time",
     },
     {
       company: "NXZ Visuals",
