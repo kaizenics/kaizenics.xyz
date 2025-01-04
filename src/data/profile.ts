@@ -50,7 +50,7 @@ export const profileData = {
     },
     {
       company: "BDCons Management",
-      position: "Virtual Assistant",
+      position: "Social Media Manager",
       period: "Part-time",
     },
     {
