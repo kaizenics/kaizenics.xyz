@@ -55,7 +55,7 @@ export const profileData = {
     },
     {
       company: "NXZ Visuals",
-      position: "Graphic Designer",
+      position: "Developer and Designer",
       period: "Freelance",
     },
   ],
@@ -79,11 +79,6 @@ export const profileData = {
     {
       position: "Design Committee",
       organization: "Google Developer Group Davao",
-      period: "2024",
-    },
-    {
-      position: "Open Source Contributor",
-      organization: "awesome-shadcn/ui",
       period: "2024",
     },
   ],
