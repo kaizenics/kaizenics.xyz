@@ -45,7 +45,7 @@ export const profileData = {
   workExperience: [
     {
       company: "ArtGuerilla",
-      position: "UI/UX Designer",
+      position: "UI Designer",
       period: "Full-time",
       location: "Berlin, Germany"
     },
