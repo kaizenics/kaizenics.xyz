@@ -36,9 +36,16 @@ export function WorkExperience() {
                   {exp.period && <Badge variant="secondary">{exp.period}</Badge>}
                 </div>
 
-                <span className="font-sans text-xs sm:text-sm text-gray-400">
-                  {exp.position}
-                </span>
+                <div className="space-y-1">
+                  <span className="font-sans text-xs sm:text-sm text-gray-400">
+                    {exp.position}
+                  </span>
+                  {exp.location && (
+                    <p className="font-sans text-xs text-gray-500">
+                      {exp.location}
+                    </p>
+                  )}
+                </div>
               </CardContent>
             </Card>
           </motion.div>

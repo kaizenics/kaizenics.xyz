@@ -44,19 +44,28 @@ export const profileData = {
 
   workExperience: [
     {
-      company: "Hunnid Agency",
-      position: "Front-end Developer",
+      company: "ArtGuerilla",
+      position: "UI/UX Designer",
       period: "Full-time",
+      location: "Berlin, Germany"
+    },
+    {
+      company: "HunnidBaddies",
+      position: "Frontend Developer",
+      period: "Full-time",
+      location: "Berlin, Germany"
     },
     {
       company: "BDCons Management",
       position: "Social Media Manager",
       period: "Part-time",
+      location: "Vienna, Austria"
     },
     {
       company: "NXZ Visuals",
-      position: "Developer and Designer",
+      position: "Developer & Designer",
       period: "Freelance",
+      location: "Davao, Philippines"
     },
   ],
 
